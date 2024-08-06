@@ -1,0 +1,40 @@
+﻿@page
+@model Tarea1_Bases1.Pages.AgregarPacienteModel
+@{
+}
+
+@if(Model.hayDatos)
+{
+    <p>Hola @Model.nombre</p>
+    <p>Estoy intentando terminar esto.</p>
+   
+}
+@if (Model.vacio)
+{
+   <p>Debe de rellenar los datos</p>
+   <h1>IDIOTA</h1>
+}
+
+<h1>Agregar Paciente</h1>
+    <div class="container">
+        <form method="POST">
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="Nombre" name="Nombre"><br> <br />
+            
+            <label for="Apellido">Apellido</label>
+            <input type="text" id="Apellido" name="Apellido"><br> <br />
+
+            <label for="Cedula">Cédula</label>
+            <input type="text" id="Cedula" name="Cedula"><br> <br />
+
+            <label for="Edad">Edad</label>
+            <input type="text" id="Edad" name="Edad"><br> <br />
+
+            <label for="Direccion">Dirección</label><br>
+            <textarea id="Direccion" name="Direccion" style="height:200px"></textarea><br>
+
+            <input type="submit" name="Registar" value="Registrar" />
+
+
+        </form>
+    </div>
