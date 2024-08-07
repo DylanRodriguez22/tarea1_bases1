@@ -1,40 +1,42 @@
 ﻿@page
 @model Tarea1_Bases1.Pages.AgregarPacienteModel
 @{
+    var fechaHoyH = Model.fechaHoy.ToString("yyyy-MM-dd");
 }
 
 @if(Model.hayDatos)
 {
     <p>Hola @Model.nombre</p>
     <p>Estoy intentando terminar esto.</p>
-   
+    
 }
 @if (Model.vacio)
-{
+{   
+   
    <p>Debe de rellenar los datos</p>
    <h1>IDIOTA</h1>
 }
+
 
 <h1>Agregar Paciente</h1>
     <div class="container">
         <form method="POST">
             <label for="Nombre">Nombre</label>
-            <input type="text" id="Nombre" name="Nombre"><br> <br />
+            <input type="text" id="Nombre" name="Nombre" , value="@Model.nombre"><br> <br />
             
             <label for="Apellido">Apellido</label>
-            <input type="text" id="Apellido" name="Apellido"><br> <br />
+            <input type="text" id="Apellido" name="Apellido", value="@Model.apellido"><br> <br />
 
             <label for="Cedula">Cédula</label>
-            <input type="text" id="Cedula" name="Cedula"><br> <br />
-
-            <label for="Edad">Edad</label>
-            <input type="text" id="Edad" name="Edad"><br> <br />
+        <input type="text" id="Cedula" name="Cedula" value="@Model.cedula"><br> <br />
+                
+            <label for="fecha">Fecha de Nacimiento</label>
+            <input type="date" id="start" name="trip-start" value="@fechaHoyH" max="@fechaHoyH"/><br /><br />
 
             <label for="Direccion">Dirección</label><br>
-            <textarea id="Direccion" name="Direccion" style="height:200px"></textarea><br>
+            <textarea id="Direccion" name="Direccion" style="height:200px" @Model.direccion></textarea><br>
 
             <input type="submit" name="Registar" value="Registrar" />
-
 
         </form>
     </div>
