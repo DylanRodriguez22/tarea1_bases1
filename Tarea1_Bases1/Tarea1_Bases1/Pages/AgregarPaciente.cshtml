@@ -10,11 +10,32 @@
     <p>Estoy intentando terminar esto.</p>
     
 }
-@if (Model.vacio)
-{   
+@if (Model.errorVacio)
+{
+    <h1>Error</h1>
+   <p>No debe de dejar espacios vacíos.</p>
    
-   <p>Debe de rellenar los datos</p>
-   <h1>IDIOTA</h1>
+}
+
+@if (Model.errorCedulaNumeros)
+{
+    <h1>Error</h1>
+    <p>La cédula solo debe contener números.</p>
+
+}
+
+@if (Model.errorCedulaLargo)
+{
+    <h1>Error</h1>
+    <p>La cédula debe contener al menos 9 dígitos.</p>
+
+}
+
+@if (Model.agregadoCorrectamente)
+{
+    <h1>Completado</h1>
+    <p>Se ha agregado el paciente correctamente.</p>
+
 }
 
 
@@ -28,10 +49,10 @@
             <input type="text" id="Apellido" name="Apellido", value="@Model.apellido"><br> <br />
 
             <label for="Cedula">Cédula</label>
-        <input type="text" id="Cedula" name="Cedula" value="@Model.cedula"><br> <br />
+            <input type="text" id="Cedula" name="Cedula" value="@Model.cedula"><br> <br />
                 
             <label for="fecha">Fecha de Nacimiento</label>
-            <input type="date" id="start" name="trip-start" value="@fechaHoyH" max="@fechaHoyH"/><br /><br />
+            <input type="date" id="fecha" name="fecha" value="@fechaHoyH" max="@fechaHoyH" /><br /><br />
 
             <label for="Direccion">Dirección</label><br>
             <textarea id="Direccion" name="Direccion" style="height:200px" @Model.direccion></textarea><br>

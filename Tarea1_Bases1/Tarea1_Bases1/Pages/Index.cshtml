@@ -2,9 +2,47 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    
 }
+<style>
+    table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 8px;
+    }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+<h1>Lista de Pacientes</h1>
+<table id="Tabla de Pacientes">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Cédula</th>
+            <th>Fecha de Nacimiento</th>
+            <th>Edad</th>
+            <th>Dirección</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var paciente in Model.pacientes)
+        {
+            <tr>
+                <td>@paciente.nombre</td>
+                <td>@paciente.apellido</td>
+                <td>@paciente.cedula</td>
+                <td>@paciente.fechaDeNacimiento</td>
+                <td>@paciente.edad</td>
+                <td>@paciente.direccion</td>
+            </tr>
+        }
+    </tbody>
