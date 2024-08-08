@@ -37,27 +37,83 @@
     <p>Se ha agregado el paciente correctamente.</p>
 
 }
+<style>
+
+    form{
+        margin: 0 auto;
+        width: 400px;
+        background-color: #13232f;
+        
+        box-shadow: 0 4px 10px 4px rgba(#13232f,.3);
+
+        padding: 40px;
+        max-width:600px;
+        margin:40px auto;
+        border-radius:4px;
+    }
+    h1{
+        color: #ffffff;
+        text-align: center;
+        margin: 0 0 40px;
+    }
+    label{
+        color: #ffffff;
+    }
+    input{
+        color: #ffffff;
+        font-size: 22px;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 5px 10px;
+        background: none;
+        background-image: none;
+        border: 1px solid #13232f 
+        
+        border-radius: 0;
+        transition: border-color .25s ease, box-shadow .25s
+    }
+
+    .Boton{
+       
+        display: block;
+        width: 100%;
+        border: 0;
+        outline: none;
+        border-radius: 0;
+        padding: 15px 0;
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        background: #1ab188;
+        color: #ffffff;
+        transition: all.5s ease;
+        -webkit-appearance: none;
+    
+    }
+    
+</style>
 
 
-<h1>Agregar Paciente</h1>
     <div class="container">
         <form method="POST">
-            <label for="Nombre">Nombre</label>
-            <input type="text" id="Nombre" name="Nombre" , value="@Model.nombre"><br> <br />
+        <h1>Agregar Paciente</h1>
+        <input type="text" id="Nombre" name="Nombre" , value="@Model.nombre" placeholder="Nombre" > <span>
+            <br> <br />
             
-            <label for="Apellido">Apellido</label>
-            <input type="text" id="Apellido" name="Apellido", value="@Model.apellido"><br> <br />
+            <input type="text" id="Apellido" name="Apellido", value="@Model.apellido" placeholder="Apellido"><br> <br />
 
-            <label for="Cedula">Cédula</label>
-            <input type="text" id="Cedula" name="Cedula" value="@Model.cedula"><br> <br />
+            
+            <input type="text" id="Cedula" name="Cedula" value="@Model.cedula" placeholder="Cedula"><br> <br />
                 
+            <input type="text" id="Direccion" name="Direccion" value="@Model.direccion" placeholder="Direccion" /> <br> <br />
+
             <label for="fecha">Fecha de Nacimiento</label>
-            <input type="date" id="fecha" name="fecha" value="@fechaHoyH" max="@fechaHoyH" /><br /><br />
+            <input type="date" id="fecha" name="fecha" value="@fechaHoyH" max="@fechaHoyH" /><br> <br />
 
-            <label for="Direccion">Dirección</label><br>
-            <textarea id="Direccion" name="Direccion" style="height:200px" @Model.direccion></textarea><br>
+            <input class="Boton" type="submit" name="Registar" value="Registrar" />
 
-            <input type="submit" name="Registar" value="Registrar" />
-
+           
         </form>
     </div>

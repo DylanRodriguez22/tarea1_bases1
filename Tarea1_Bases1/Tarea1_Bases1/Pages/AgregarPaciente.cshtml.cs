@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.ComponentModel.DataAnnotations;
 using Tarea1_Bases1.wwwroot.lib.Clase_Paciente;
 
 namespace Tarea1_Bases1.Pages
@@ -7,7 +8,9 @@ namespace Tarea1_Bases1.Pages
 {
     public class AgregarPacienteModel : PageModel
     {
+        [Required]
         public string nombre;
+        [Required]
         public string apellido;
         public string fechaNacimiento;
         public string cedula;
