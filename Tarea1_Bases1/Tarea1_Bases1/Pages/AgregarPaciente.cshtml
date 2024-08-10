@@ -6,6 +6,7 @@
 
 @if (Model.errorCedulaNumeros)
 {
+    
     <h1>Error</h1>
     <p>La cédula solo debe contener números.</p>
     
@@ -16,8 +17,10 @@
 {
     <h1>Completado</h1>
     <p>Se ha agregado el paciente correctamente.</p>
-
+    
 }
+
+
 <style>
 
     form{
@@ -102,8 +105,8 @@
        
             <input type="date" id="fecha" name="fecha" value="@fechaHoyH" max="@fechaHoyH" /><br> <br />
 
-            <input class="Boton" type="submit" name="Registar" value="Registrar" />
-
+            <input class="Boton" type="submit" name="Registar" value="Registrar"  />
+           
            
         </form>
     </div>

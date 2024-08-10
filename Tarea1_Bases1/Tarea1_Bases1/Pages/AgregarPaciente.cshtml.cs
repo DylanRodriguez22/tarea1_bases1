@@ -87,6 +87,7 @@ namespace Tarea1_Bases1.Pages
                             cedula = "";
                             direccion = "";
                             fechaHoy = DateTime.Now;
+                        
                         }
                     }
                     else
