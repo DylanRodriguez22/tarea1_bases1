@@ -4,3 +4,4 @@ Diany;;;Rodriguez;;;2003-03-29;;;21;;;123456789;;;Guapilandia, Calle antes de la
 Shaguín;;;Linarte;;;2024-08-08;;;0;;;912345678;;;Gallo Manso
 Albertano;;;Santacruz;;;1970-08-08;;;54;;;123456789;;;Tepito
 Mariano Néstor;;;Torres;;;1987-05-19;;;37;;;4039383736;;;San Juan de Tibás
+Pepito;;;Figueritos;;;1949-07-13;;;75;;;1213451243;;;Alajuelita, cerca de la calle donde navajean a diario.

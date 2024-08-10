@@ -2,6 +2,7 @@
 @model Tarea1_Bases1.Pages.AgregarPacienteModel
 @{
     var fechaHoyH = Model.fechaHoy.ToString("yyyy-MM-dd");
+     
 }
 
 @if (Model.errorCedulaNumeros)
@@ -104,6 +105,8 @@
 
        
             <input type="date" id="fecha" name="fecha" value="@fechaHoyH" max="@fechaHoyH" /><br> <br />
+
+       
 
             <input class="Boton" type="submit" name="Registar" value="Registrar"  />
            

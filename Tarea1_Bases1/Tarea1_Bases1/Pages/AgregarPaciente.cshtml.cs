@@ -9,13 +9,15 @@ namespace Tarea1_Bases1.Pages
 {
     public class AgregarPacienteModel : PageModel
     {
+        
         [BindProperty]
         public string nombre { get; set; } = "";
         [BindProperty]
         public string apellido { get; set; } = "";
         public string fechaNacimiento;
         [BindProperty]
-        [MinLength(9)]
+        [RegularExpression("^\\d+$", ErrorMessage = "La cédula solo debe contener números.") ]
+        [MinLength(9, ErrorMessage= "La cédula debe contener al menos 9 dígitos.") ]
         public string cedula { get; set; } = "";
         [BindProperty]
         public string direccion { get; set; } = "";
