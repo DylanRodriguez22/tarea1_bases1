@@ -4,32 +4,13 @@
     var fechaHoyH = Model.fechaHoy.ToString("yyyy-MM-dd");
 }
 
-@if(Model.hayDatos)
-{
-    <p>Hola @Model.nombre</p>
-    <p>Estoy intentando terminar esto.</p>
-    
-}
-@if (Model.errorVacio)
-{
-    <h1>Error</h1>
-   <p>No debe de dejar espacios vacíos.</p>
-   
-}
-
 @if (Model.errorCedulaNumeros)
 {
     <h1>Error</h1>
     <p>La cédula solo debe contener números.</p>
-
+    
 }
 
-@if (Model.errorCedulaLargo)
-{
-    <h1>Error</h1>
-    <p>La cédula debe contener al menos 9 dígitos.</p>
-
-}
 
 @if (Model.agregadoCorrectamente)
 {
@@ -58,6 +39,7 @@
     }
     label{
         color: #ffffff;
+        
     }
     input{
         color: #ffffff;
@@ -92,24 +74,32 @@
         -webkit-appearance: none;
     
     }
-    
+    .text_danger{
+        color: #ffffff
+    }
 </style>
 
 
     <div class="container">
-        <form method="POST">
+    <form method="POST" >
         <h1>Agregar Paciente</h1>
-        <input type="text" id="Nombre" name="Nombre" , value="@Model.nombre" placeholder="Nombre" > <span>
+        <input type="text" id="Nombre" asp-for="nombre" , value="@Model.nombre" placeholder="Nombre"> 
+            <span asp-validation-for="nombre" class="text_danger"></span>
             <br> <br />
-            
-            <input type="text" id="Apellido" name="Apellido", value="@Model.apellido" placeholder="Apellido"><br> <br />
 
-            
-            <input type="text" id="Cedula" name="Cedula" value="@Model.cedula" placeholder="Cedula"><br> <br />
-                
-            <input type="text" id="Direccion" name="Direccion" value="@Model.direccion" placeholder="Direccion" /> <br> <br />
+        <input type="text" id="Apellido" asp-for="apellido" , value="@Model.apellido" placeholder="Apellido">
+        <span asp-validation-for="apellido" class="text_danger"></span>
+        <br> <br />
 
-            <label for="fecha">Fecha de Nacimiento</label>
+        <input type="text" id="Cedula" asp-for="cedula"  value="@Model.cedula" placeholder="Cedula">
+        <span asp-validation-for="cedula" class="text_danger"></span>
+        <br> <br />
+        
+        <input type="text" id="Direccion" asp-for="direccion" value="@Model.direccion" placeholder="Direccion" /> 
+        <span asp-validation-for="direccion" class="text_danger"></span>
+        <br> <br />
+
+       
             <input type="date" id="fecha" name="fecha" value="@fechaHoyH" max="@fechaHoyH" /><br> <br />
 
             <input class="Boton" type="submit" name="Registar" value="Registrar" />

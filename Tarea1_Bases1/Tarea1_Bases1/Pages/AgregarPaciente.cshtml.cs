@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
+using System.Reflection.Emit;
 using Tarea1_Bases1.wwwroot.lib.Clase_Paciente;
 
 namespace Tarea1_Bases1.Pages
@@ -8,13 +9,16 @@ namespace Tarea1_Bases1.Pages
 {
     public class AgregarPacienteModel : PageModel
     {
-        [Required]
-        public string nombre;
-        [Required]
-        public string apellido;
+        [BindProperty]
+        public string nombre { get; set; } = "";
+        [BindProperty]
+        public string apellido { get; set; } = "";
         public string fechaNacimiento;
-        public string cedula;
-        public string direccion;
+        [BindProperty]
+        [MinLength(9)]
+        public string cedula { get; set; } = "";
+        [BindProperty]
+        public string direccion { get; set; } = "";
         public bool errorVacio = false;
         public bool errorCedulaNumeros = false;
         public bool errorCedulaLargo = false;
@@ -95,6 +99,8 @@ namespace Tarea1_Bases1.Pages
                 {
                     errorCedulaNumeros = true;
                     fechaHoy = DateTime.Now;
+                   
+
                 }
             }
             fechaHoy = DateTime.Now;
