@@ -7,7 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\js\MensajeError.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\MensajeError.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="Pages\Clase Paciente\Paciente.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\MensajeError.js" />
   </ItemGroup>
 
 </Project>

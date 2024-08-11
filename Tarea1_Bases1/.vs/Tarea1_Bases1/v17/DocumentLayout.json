@@ -7,20 +7,40 @@
       "RelativeMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|solutionrelative:tarea1_bases1\\pages\\agregarpaciente.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|c:\\users\\dylan\\documents\\tarea1_bases1\\tarea1_bases1\\tarea1_bases1\\pages\\agregarpaciente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|solutionrelative:tarea1_bases1\\pages\\agregarpaciente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|c:\\users\\dylan\\documents\\tarea1_bases1\\tarea1_bases1\\tarea1_bases1\\pacientes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|solutionrelative:tarea1_bases1\\pacientes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|c:\\users\\dylan\\documents\\tarea1_bases1\\tarea1_bases1\\tarea1_bases1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|solutionrelative:tarea1_bases1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|c:\\users\\dylan\\documents\\tarea1_bases1\\tarea1_bases1\\tarea1_bases1\\wwwroot\\js\\mensajeerror.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|solutionrelative:tarea1_bases1\\wwwroot\\js\\mensajeerror.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|c:\\users\\dylan\\documents\\tarea1_bases1\\tarea1_bases1\\tarea1_bases1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|solutionrelative:tarea1_bases1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|c:\\users\\dylan\\documents\\tarea1_bases1\\tarea1_bases1\\tarea1_bases1\\pages\\clase paciente\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|solutionrelative:tarea1_bases1\\pages\\clase paciente\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|c:\\users\\dylan\\documents\\tarea1_bases1\\tarea1_bases1\\tarea1_bases1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|solutionrelative:tarea1_bases1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|c:\\users\\dylan\\documents\\tarea1_bases1\\tarea1_bases1\\tarea1_bases1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|solutionrelative:tarea1_bases1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|c:\\users\\dylan\\documents\\tarea1_bases1\\tarea1_bases1\\tarea1_bases1\\pages\\agregarpaciente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|solutionrelative:tarea1_bases1\\pages\\agregarpaciente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|c:\\users\\dylan\\documents\\tarea1_bases1\\tarea1_bases1\\tarea1_bases1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|solutionrelative:tarea1_bases1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|c:\\users\\dylan\\documents\\tarea1_bases1\\tarea1_bases1\\tarea1_bases1\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|solutionrelative:tarea1_bases1\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|c:\\users\\dylan\\documents\\tarea1_bases1\\tarea1_bases1\\tarea1_bases1\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09EE07A5-025B-4ABA-A0E1-F656123BEB7C}|Tarea1_Bases1\\Tarea1_Bases1.csproj|solutionrelative:tarea1_bases1\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +60,7 @@
               "RelativeDocumentMoniker": "Tarea1_Bases1\\Pages\\AgregarPaciente.cshtml.cs",
               "ToolTip": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\Pages\\AgregarPaciente.cshtml.cs",
               "RelativeToolTip": "Tarea1_Bases1\\Pages\\AgregarPaciente.cshtml.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAADkAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAB9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T17:03:47.58Z",
               "IsPinned": true,
@@ -48,54 +68,120 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Tarea1_Bases1\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Tarea1_Bases1\\Pages\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T19:47:59.699Z",
-              "IsPinned": true
+              "DocumentIndex": 1,
+              "Title": "pacientes.txt",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\pacientes.txt",
+              "RelativeDocumentMoniker": "Tarea1_Bases1\\pacientes.txt",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\pacientes.txt",
+              "RelativeToolTip": "Tarea1_Bases1\\pacientes.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-11T17:37:20.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Tarea1_Bases1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Tarea1_Bases1\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-11T17:37:12.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Tarea1_Bases1\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Tarea1_Bases1\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-11T17:37:08.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\Pages\\Clase Paciente\\Paciente.cs",
+              "RelativeDocumentMoniker": "Tarea1_Bases1\\Pages\\Clase Paciente\\Paciente.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\Pages\\Clase Paciente\\Paciente.cs",
+              "RelativeToolTip": "Tarea1_Bases1\\Pages\\Clase Paciente\\Paciente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:34:08.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Tarea1_Bases1\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Tarea1_Bases1\\Pages\\Error.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T17:21:08.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Tarea1_Bases1\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Tarea1_Bases1\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T19:37:49.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MensajeError.js",
+              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\wwwroot\\js\\MensajeError.js",
+              "RelativeDocumentMoniker": "Tarea1_Bases1\\wwwroot\\js\\MensajeError.js",
+              "ToolTip": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\wwwroot\\js\\MensajeError.js",
+              "RelativeToolTip": "Tarea1_Bases1\\wwwroot\\js\\MensajeError.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-10T19:18:02.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AgregarPaciente.cshtml",
               "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\Pages\\AgregarPaciente.cshtml",
               "RelativeDocumentMoniker": "Tarea1_Bases1\\Pages\\AgregarPaciente.cshtml",
               "ToolTip": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\Pages\\AgregarPaciente.cshtml",
               "RelativeToolTip": "Tarea1_Bases1\\Pages\\AgregarPaciente.cshtml",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAAYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-10T17:08:06.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Tarea1_Bases1\\Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Tarea1_Bases1\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAAAUAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-10T17:16:07.13Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Tarea1_Bases1\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Dylan\\Documents\\tarea1_bases1\\Tarea1_Bases1\\Tarea1_Bases1\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Tarea1_Bases1\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-10T17:16:13.731Z"
             }
           ]
         }

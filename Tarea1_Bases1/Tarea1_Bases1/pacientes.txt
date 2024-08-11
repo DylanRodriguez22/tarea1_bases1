@@ -5,3 +5,5 @@ Shaguín;;;Linarte;;;2024-08-08;;;0;;;912345678;;;Gallo Manso
 Albertano;;;Santacruz;;;1970-08-08;;;54;;;123456789;;;Tepito
 Mariano Néstor;;;Torres;;;1987-05-19;;;37;;;4039383736;;;San Juan de Tibás
 Pepito;;;Figueritos;;;1949-07-13;;;75;;;1213451243;;;Alajuelita, cerca de la calle donde navajean a diario.
+Ariel Francisco;;;Rodrígueez;;;1987-08-14;;;37;;;97214565812621;;;San Juan de Tibás
+Kevin;;;Chamorro;;;2000-04-08;;;24;;;504320551;;;Ahora en Portugal

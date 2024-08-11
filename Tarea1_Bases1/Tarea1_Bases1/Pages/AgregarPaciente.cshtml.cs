@@ -9,7 +9,8 @@ namespace Tarea1_Bases1.Pages
 {
     public class AgregarPacienteModel : PageModel
     {
-        
+        //Estos atributos son los que van a guardar la entrada en los campos de texto del formulario de registro
+        //Se les asignaron propiedades de acuerdo a las caracteristicas que deben de tener para validar sus datos de forma sencilla y que se muestre en la interfaz gráfica
         [BindProperty]
         public string nombre { get; set; } = "";
         [BindProperty]
@@ -21,21 +22,15 @@ namespace Tarea1_Bases1.Pages
         public string cedula { get; set; } = "";
         [BindProperty]
         public string direccion { get; set; } = "";
-        public bool errorVacio = false;
-        public bool errorCedulaNumeros = false;
-        public bool errorCedulaLargo = false;
 
-        public bool hayDatos = false;
-        public bool vacio = false;
-        public bool agregadoCorrectamente = false;
-        
         public  DateTime fechaHoy;
-        
-        public Paciente paciente; 
+        public bool agregadoCorrectamente = false;
+
+        //Método que se ejecuta cada vez que se carga la ventana. Inicializa los atributos de la clase a modo de constructor.
         public void OnGet()
         {
             fechaHoy = DateTime.Now;
-            paciente= new Paciente();
+            
             nombre = "";
             apellido = "";
             fechaNacimiento = "";
@@ -45,71 +40,46 @@ namespace Tarea1_Bases1.Pages
          
 
         }
+        //Esta función se ejecuta cuando se presiona el botón de Registrar en el formulario
+        //Toma los datos de las entradas de texto y posterior a las validaciones que se realizan con las propiedades de los atributos se ingresan los datos en el archivo .txt
         public void OnPost() {
             nombre = Request.Form["Nombre"];
             apellido = Request.Form["Apellido"];
             fechaNacimiento = Request.Form["fecha"];
             cedula = Request.Form["Cedula"];
             direccion = Request.Form["Direccion"];
-            int edad;
-            DateTime hoy = DateTime.Today;
-            if (nombre == "") {
-                errorVacio = true;
-            }
-            if (apellido == ""){  errorVacio = true; }
-            if (fechaNacimiento == "") { errorVacio = true; }
-            if (cedula == "") { errorVacio = true; }
-            if (direccion == "") { errorVacio = true; }
-            if (!errorVacio)
+            if(nombre != "" & apellido != "" & fechaNacimiento != "" & cedula != "" & direccion != "")
             {
-                if (cedula.All(char.IsDigit))
+                int edad;
+                DateTime hoy = DateTime.Today;
+
+                DateTime nacimientoDateTime = DateTime.Parse(fechaNacimiento);
+                edad = hoy.Year - nacimientoDateTime.Year;
+                //Escribir en el .txt
+                string linea = nombre + ";;;" + apellido + ";;;" + fechaNacimiento + ";;;" + edad.ToString() + ";;;" + cedula + ";;;" + direccion;
+                try
                 {
-                    if(cedula.Length >= 9)
-                    {
-                        DateTime nacimientoDateTime = DateTime.Parse(fechaNacimiento);
-                        edad =  hoy.Year - nacimientoDateTime.Year;
-                        //Escribir en el .txt
-                        string linea = nombre + ";;;" + apellido + ";;;" + fechaNacimiento + ";;;" + edad.ToString() + ";;;" + cedula + ";;;" + direccion;
-                        try
-                        {
-                            StreamWriter sw = new StreamWriter("pacientes.txt", true);
-                            sw.WriteLine(linea);
-                            sw.Close();
-                        }
-                        catch (Exception e)
-                        {
-                            Console.WriteLine("Exception: " + e.Message);
-                        }
-                        finally
-                        {
-                            agregadoCorrectamente = true;
-                            nombre = "";
-                            apellido = "";
-                            fechaNacimiento = "";
-                            cedula = "";
-                            direccion = "";
-                            fechaHoy = DateTime.Now;
-                        
-                        }
-                    }
-                    else
-                    {
-                        errorCedulaLargo = true;
-                        fechaHoy = DateTime.Now;
-                    }
+                    StreamWriter sw = new StreamWriter("pacientes.txt", true);
+                    sw.WriteLine(linea);
+                    sw.Close();
                 }
-                else
+                catch (Exception e)
                 {
-                    errorCedulaNumeros = true;
+                    Console.WriteLine("Exception: " + e.Message);
+                }
+                finally
+                {
+                    agregadoCorrectamente = true;
+                    nombre = "";
+                    apellido = "";
+                    fechaNacimiento = "";
+                    cedula = "";
+                    direccion = "";
                     fechaHoy = DateTime.Now;
-                   
 
                 }
             }
             fechaHoy = DateTime.Now;
-
-
-
 
 
         }

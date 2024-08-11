@@ -4,26 +4,17 @@
     var fechaHoyH = Model.fechaHoy.ToString("yyyy-MM-dd");
      
 }
-
-@if (Model.errorCedulaNumeros)
-{
-    
-    <h1>Error</h1>
-    <p>La cédula solo debe contener números.</p>
-    
-}
-
-
 @if (Model.agregadoCorrectamente)
 {
-    <h1>Completado</h1>
-    <p>Se ha agregado el paciente correctamente.</p>
-    
+    <script src="~/js/MensajeError.js"></script>
+    Model.agregadoCorrectamente = false;
 }
 
 
 <style>
-
+    /*
+        Aquí se encuentra todo el estilo para el formulario de registro
+        */
     form{
         margin: 0 auto;
         width: 400px;
@@ -83,11 +74,13 @@
     }
 </style>
 
-
+    <!-- Aquí se crea el formulario para registrar a los pacientes-->
+    
     <div class="container">
     <form method="POST" >
         <h1>Agregar Paciente</h1>
-        <input type="text" id="Nombre" asp-for="nombre" , value="@Model.nombre" placeholder="Nombre"> 
+        <input type="text" id="Nombre" asp-for="nombre" , value="@Model.nombre" placeholder="Nombre">
+        <!-- Con la línea de abajo se añade la validación que se le asigna al atributo en la clase. Esto se hace para cada campo que se debe rellenar-->
             <span asp-validation-for="nombre" class="text_danger"></span>
             <br> <br />
 
@@ -95,21 +88,16 @@
         <span asp-validation-for="apellido" class="text_danger"></span>
         <br> <br />
 
-        <input type="text" id="Cedula" asp-for="cedula"  value="@Model.cedula" placeholder="Cedula">
+        <input type="text" id="Cedula" asp-for="cedula"  value="@Model.cedula" placeholder="Cédula">
         <span asp-validation-for="cedula" class="text_danger"></span>
         <br> <br />
         
-        <input type="text" id="Direccion" asp-for="direccion" value="@Model.direccion" placeholder="Direccion" /> 
+        <input type="text" id="Direccion" asp-for="direccion" value="@Model.direccion" placeholder="Dirección" /> 
         <span asp-validation-for="direccion" class="text_danger"></span>
         <br> <br />
 
-       
-            <input type="date" id="fecha" name="fecha" value="@fechaHoyH" max="@fechaHoyH" /><br> <br />
-
-       
-
-            <input class="Boton" type="submit" name="Registar" value="Registrar"  />
-           
+        <input type="date" id="fecha" name="fecha" value="@fechaHoyH" max="@fechaHoyH" /><br> <br />
+        <input class="Boton" type="submit" name="Registar" value="Registrar"  />
            
         </form>
     </div>

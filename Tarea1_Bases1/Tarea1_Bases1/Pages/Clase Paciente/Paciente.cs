@@ -1,5 +1,6 @@
 ﻿namespace Tarea1_Bases1.wwwroot.lib.Clase_Paciente
 {
+    //Clase Paciente para guardar los datos de cada uno que se vaya a registrar de manera sencilla.
     public class Paciente
     {
         public string nombre;
@@ -20,11 +21,11 @@
         }
         public Paciente() {
             nombre = "";
-         apellido = "";
-         cedula = "";
-       fechaDeNacimiento = "";
-         edad = "";
-         direccion = "";
+            apellido = "";
+            cedula = "";
+            fechaDeNacimiento = "";
+            edad = "";
+            direccion = "";
     }
     }
 }
