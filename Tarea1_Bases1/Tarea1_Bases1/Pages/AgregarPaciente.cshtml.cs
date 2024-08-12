@@ -50,34 +50,43 @@ namespace Tarea1_Bases1.Pages
             direccion = Request.Form["Direccion"];
             if(nombre != "" & apellido != "" & fechaNacimiento != "" & cedula != "" & direccion != "")
             {
-                int edad;
-                DateTime hoy = DateTime.Today;
+                if (cedula.Length > 8)
+                {
+                    if (cedula.All(char.IsDigit))
+                    {
+                        int edad;
+                        DateTime hoy = DateTime.Today;
 
-                DateTime nacimientoDateTime = DateTime.Parse(fechaNacimiento);
-                edad = hoy.Year - nacimientoDateTime.Year;
-                //Escribir en el .txt
-                string linea = nombre + ";;;" + apellido + ";;;" + fechaNacimiento + ";;;" + edad.ToString() + ";;;" + cedula + ";;;" + direccion;
-                try
-                {
-                    StreamWriter sw = new StreamWriter("pacientes.txt", true);
-                    sw.WriteLine(linea);
-                    sw.Close();
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine("Exception: " + e.Message);
-                }
-                finally
-                {
-                    agregadoCorrectamente = true;
-                    nombre = "";
-                    apellido = "";
-                    fechaNacimiento = "";
-                    cedula = "";
-                    direccion = "";
-                    fechaHoy = DateTime.Now;
+                        DateTime nacimientoDateTime = DateTime.Parse(fechaNacimiento);
+                        edad = hoy.Year - nacimientoDateTime.Year;
+                        //Escribir en el .txt
+                        string linea = nombre + ";;;" + apellido + ";;;" + fechaNacimiento + ";;;" + edad.ToString() + ";;;" + cedula + ";;;" + direccion;
+                        try
+                        {
+                            StreamWriter sw = new StreamWriter("pacientes.txt", true);
+                            sw.WriteLine(linea);
+                            sw.Close();
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine("Exception: " + e.Message);
+                        }
+                        finally
+                        {
+                            agregadoCorrectamente = true;
+                            nombre = "";
+                            apellido = "";
+                            fechaNacimiento = "";
+                            cedula = "";
+                            direccion = "";
+                            fechaHoy = DateTime.Now;
 
+                        }
+                    }
                 }
+
+
+               
             }
             fechaHoy = DateTime.Now;
 

@@ -1,9 +1,4 @@
-Ana;;;Chavarria;;;1982-10-14;;;42;;;111510873;;;Liverpool
-Dylan;;;Rodriguez;;;2004-05-12;;;20;;;703080131;;;Liverpool, carretera hacia Río Blanco. 1,5 km
-Diany;;;Rodriguez;;;2003-03-29;;;21;;;123456789;;;Guapilandia, Calle antes de la Guacamaya
-Shaguín;;;Linarte;;;2024-08-08;;;0;;;912345678;;;Gallo Manso
-Albertano;;;Santacruz;;;1970-08-08;;;54;;;123456789;;;Tepito
-Mariano Néstor;;;Torres;;;1987-05-19;;;37;;;4039383736;;;San Juan de Tibás
-Pepito;;;Figueritos;;;1949-07-13;;;75;;;1213451243;;;Alajuelita, cerca de la calle donde navajean a diario.
-Ariel Francisco;;;Rodrígueez;;;1987-08-14;;;37;;;97214565812621;;;San Juan de Tibás
-Kevin;;;Chamorro;;;2000-04-08;;;24;;;504320551;;;Ahora en Portugal
+Dylan;;;Rodríguez;;;2004-05-12;;;20;;;703080131;;;Liverpool, carretera hacia Río Blanco.
+Jeffry;;;Rodríguez;;;1978-03-23;;;46;;;701270309;;;Liverpool, carretera hacia Río Blanco 1,5 km
+Ana ;;;Chavarría;;;1982-10-14;;;42;;;111510673;;;Siquirres, contiguo a la escuela
+Diany;;;Rodríguez;;;2003-03-29;;;21;;;703020982;;;Guapiles, contiguo al estadio
